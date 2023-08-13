@@ -1,0 +1,25 @@
+:root{
+	--primary: hsl(4, 100%, 67%);
+--background1: hsl(234, 29%, 20%);
+--CharcoalGrey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+}
+
+.round{
+	border-radius: 10px;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--background1); 
+}
+.container {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--White);
+}
+
